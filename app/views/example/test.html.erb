@@ -1,0 +1,11 @@
+<h1>Example#test ggggggggggggggggggggg</h1>
+<p>Find me in app/views/example/test.html.erb</p>
+<p>
+Loop from 0 to 5:
+<% (0..5).each do |i| %>
+    <%= "#{i}, " %>
+<% end %>
+<h1>The Corrent Time</h1>
+<%= @corrent_time %>
+</p>
+<%= render partial: "shared/footer", locals: { start_year: '2000'} %>
